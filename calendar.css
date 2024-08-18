@@ -6,7 +6,31 @@ body {
     padding: 0;
     text-align: center;
 }
+.header {
+    background-color: #012E66;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5)
+}
 
+.header .logo {
+    font-size: 45px; /* Adjust the font size of the logo text */
+}
+
+.logo img {
+    
+    height: 45px; /* Adjust the height of the logo as needed */
+}
+.title {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 10px 50px 10px;
+    text-align: center;
+}
 .container {
     width: 80%;
     margin: 30px auto;
