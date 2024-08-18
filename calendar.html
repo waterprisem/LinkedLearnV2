@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Calendar</title>
+    <link rel="stylesheet" href="calendar.css">
+</head>
+<body>
+    <a href="dashboard.html" style="
+    display: inline-block;
+    background-color: #0288d1;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+    text-decoration: none;
+    text-align: center;
+">Return to Dashboard</a>
+    <div class="container">
+        <h1>Upcoming Deadlines and Dates</h1>
+        <div class="controls">
+            <button id="prevMonth">Previous Month</button>
+            <span id="currentMonthYear"></span>
+            <button id="nextMonth">Next Month</button>
+        </div>
+        <div id="calendar" class="calendar"></div>
+    </div>
+
+    <script src="calendar.js"></script>
+</body>
+</html>
